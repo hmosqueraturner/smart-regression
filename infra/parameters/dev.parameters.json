@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "workspaceIdLogAnalytics": { "value": "29552453-cced-412e-be06-484d0bef9a10" },
+    "primaryKeyLogAnalytics": { "value": "smartregessionContainerRegistry" },
+    "acrName": { "value": "smartregessionContainerRegistry" },
+    "userAssignedIdentityName": { "value": "smart-regression-identity" },
+    "containerAppsEnvName": { "value": "smart-regession-container-env" },
+    "storageAccountName": { "value": "stspaingenaipoc" },
+    "blobContainerName": { "value": "dev-container" },
+    "cosmosDbEndpoint": { "value": "https://cosno-spain-genai-poc.documents.azure.com:443/" },
+    "cosmosDbDatabase": { "value": "regression_tests" },
+    "azureSearchEndpoint": { "value": "https://srch-spain-genai-poc.search.windows.net" },
+    "azureSearchIndex": { "value": "regression-tests-index-v3" },
+    "openAiEndpoint": { "value": "https://oai-spain-genai-poc.openai.azure.com/" },
+    "openAiKey": { "value": "xxx-dev-key" },
+    "jiraUrl": { "value": "https://miempresa.atlassian.net" },
+    "jiraToken": { "value": "dev-jira-token" },
+    "jiraUser": { "value": "dev-user@example.com" },
+    "reactAppApiUrl": { "value": "https://dev.api.myapp.com" },
+    "reactAppEnv": { "value": "DEV" },
+    "apiEvaluateUrl": { "value": "https://dev.api.myapp.com/evaluate" },
+    "apiCreateUrl": { "value": "https://dev.api.myapp.com/create" }
+  }
+}

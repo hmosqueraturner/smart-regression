@@ -1,6 +1,6 @@
 # 🚀 Smart Regression Solution
 
-![Solution Overview](/docs/assets/solution-overview.png) 
+![Solution Overview](docs/solution-overview.png) <!-- Replace with your architecture diagram -->
 
 ## 📦 Overview
 
@@ -118,9 +118,9 @@ Smart Regression is an end-to-end Azure-based solution for automated regression 
 
 ## 🖼️ Screenshots & Diagrams
 
-- ![Frontend Screenshot](/docs/assets/frontend-screenshot.png) 
-- ![Azure Bicep Resources Diagram](/docs/assets/azure-bicep-resources.png) 
-- ![Azure VSCode Deployed Resources](/docs/assets/resources-vscode.png)
+- ![Frontend Screenshot](docs/frontend-screenshot.png) <!-- Replace with your screenshot -->
+- ![API Flow](docs/api-flow.png) <!-- Replace with your diagram -->
+- ![Azure Resources](docs/azure-resources.png) <!-- Replace with your diagram -->
 
 ---
 
@@ -135,7 +135,7 @@ Smart Regression is an end-to-end Azure-based solution for automated regression 
 
 ## 📝 Notes
 
-- Replace all image references (`docs/assets/*.png`) with your own screenshots or diagrams.
+- Replace all image references (`docs/*.png`) with your own screenshots or diagrams.
 - Update environment variables and secrets according to your Azure setup.
 - For production, review security and access policies for all resources.
 
@@ -143,9 +143,10 @@ Smart Regression is an end-to-end Azure-based solution for automated regression 
 
 ## 🧑‍💻 Contributing
 
-Please Contact @hmosqueraturner
+Feel free to open issues or submit PRs for improvements!
 
 ---
 
 ## 📄 License
---
+
+MIT License. See [LICENSE](LICENSE) for details.

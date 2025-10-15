@@ -1,6 +1,6 @@
 # 🚀 Smart Regression Solution
 
-![Solution Overview](/docs/assets/solution-overview.png) 
+![Solution Overview](assets/solution-overview.png) 
 
 ## 📦 Overview
 
@@ -119,6 +119,7 @@ Smart Regression is an end-to-end Azure-based solution for automated regression 
 ## 🖼️ Screenshots & Diagrams
 
 - ![Azure Bicep Resources Diagram](assets/azure-bicep-resources.png) 
+- ![Azure Bicep Resources Diagram](assets/azure-visual-resources.png) 
 - ![Azure VSCode Deployed Resources](assets/resources-vscode.png)
 - ![Ilustration of a Regression Agent](assets/regression-agent.jpeg) 
 
@@ -141,11 +142,4 @@ Smart Regression is an end-to-end Azure-based solution for automated regression 
 
 ---
 
-## 🧑‍💻 Contributing
-
-Please Contact @hmosqueraturner
-
----
-
-## 📄 License
---
+> Maintained by **@hmosqueraturner** – CTO & AI/DevOps Expert

@@ -1,6 +1,6 @@
 # 🚀 Smart Regression Solution
 
-![Solution Overview](docs/solution-overview.png) <!-- Replace with your architecture diagram -->
+![Solution Overview](/docs/assets/solution-overview.png) 
 
 ## 📦 Overview
 
@@ -108,7 +108,7 @@ Smart Regression is an end-to-end Azure-based solution for automated regression 
 ## ⚙️ Configuration
 
 - **Secrets and environment variables** are managed via Azure Managed Environments and referenced in Bicep files ([infra/infra-secrets.bicep](infra/infra-secrets.bicep)).
-- **Frontend `.env` example** ([apps/front-react/README.md](apps/front-react/README.md)):
+- **Frontend `.env` example** ([apps/front-react/README.md](../apps/front-react/README.md)):
   ```env
   REACT_APP_EVALUATE_API=https://<your-api-evaluate>.azurecontainerapps.io/evaluate
   REACT_APP_JSON_URL=https://<your-storage>.blob.core.windows.net/<container>/result.json
@@ -118,9 +118,9 @@ Smart Regression is an end-to-end Azure-based solution for automated regression 
 
 ## 🖼️ Screenshots & Diagrams
 
-- ![Frontend Screenshot](docs/frontend-screenshot.png) <!-- Replace with your screenshot -->
-- ![API Flow](docs/api-flow.png) <!-- Replace with your diagram -->
-- ![Azure Resources](docs/azure-resources.png) <!-- Replace with your diagram -->
+- ![Azure Bicep Resources Diagram](assets/azure-bicep-resources.png) 
+- ![Azure VSCode Deployed Resources](assets/resources-vscode.png)
+- ![Ilustration of a Regression Agent](assets/regression-agent.jpeg) 
 
 ---
 
@@ -135,7 +135,7 @@ Smart Regression is an end-to-end Azure-based solution for automated regression 
 
 ## 📝 Notes
 
-- Replace all image references (`docs/*.png`) with your own screenshots or diagrams.
+- Replace all image references (`assets/*.png`) with your own screenshots or diagrams.
 - Update environment variables and secrets according to your Azure setup.
 - For production, review security and access policies for all resources.
 
@@ -143,10 +143,9 @@ Smart Regression is an end-to-end Azure-based solution for automated regression 
 
 ## 🧑‍💻 Contributing
 
-Feel free to open issues or submit PRs for improvements!
+Please Contact @hmosqueraturner
 
 ---
 
 ## 📄 License
-
-MIT License. See [LICENSE](LICENSE) for details.
+--

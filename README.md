@@ -1,6 +1,6 @@
 # 🚀 Smart Regression Solution
 
-![Overview](assets/smart-reg-all3D.png)
+![Overview](docs/assets/smart-reg-all3D.png)
 
 
 ## 📦 Overview
@@ -36,24 +36,24 @@ Smart Regression is an end-to-end Azure-based solution for automated regression 
 
 ## 🧩 Components
 
-### 1. **Create Campaign API** ([apps/create-campaign](apps/create-campaign))
+### 1. **Create Campaign API** ([apps/create-campaign](apps/create-campaign/README.md))
 - **Tech:** FastAPI, Python
 - **Purpose:** Accepts JSON input to create test cases in JIRA.
 - **Endpoints:** `/create`
 - **Dockerized:** Yes
 
-### 2. **Evaluate Release API** ([apps/evaluate-release](apps/evaluate-release))
+### 2. **Evaluate Release API** ([apps/evaluate-release](apps/evaluate-release/README.md))
 - **Tech:** FastAPI, Python
 - **Purpose:** Evaluates a release by querying Cosmos DB and Azure Search, generates a JSON report, and uploads it to Azure Blob Storage.
 - **Endpoints:** `/evaluate`
 - **Dockerized:** Yes
 
-### 3. **Update RAG Job** ([apps/update-rag](apps/update-rag))
+### 3. **Update RAG Job** ([apps/update-rag](apps/update-rag/README.md))
 - **Tech:** Python, Azure Functions base image
 - **Purpose:** Scheduled job (cron) to fetch test cases from JIRA, update Cosmos DB, and index results in Azure Cognitive Search.
 - **Dockerized:** Yes
 
-### 4. **Frontend React App** ([apps/front-react](apps/front-react))
+### 4. **Frontend React App** ([apps/front-react](apps/front-react/README.md))
 - **Tech:** React, Vite, NGINX
 - **Purpose:** UI for users to trigger evaluations and view test case results.
 - **Dockerized:** Yes
@@ -68,7 +68,7 @@ Smart Regression is an end-to-end Azure-based solution for automated regression 
 
 ---
 
-![Solution Overview](assets/solution-overview.png)
+![Solution Overview](docs/assets/solution-overview.png)
 
 ---
 

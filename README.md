@@ -1,6 +1,7 @@
 # 🚀 Smart Regression Solution
 
-![Solution Overview](/docs/assets/solution-overview.png) 
+![Overview](assets/smart-reg-all3D.png)
+
 
 ## 📦 Overview
 
@@ -64,6 +65,10 @@ Smart Regression is an end-to-end Azure-based solution for automated regression 
 ### 6. **Shared Utilities** ([shared](shared))
 - **Tech:** Python
 - **Purpose:** Common Azure client factories and utility functions for all apps.
+
+---
+
+![Solution Overview](assets/solution-overview.png)
 
 ---
 
